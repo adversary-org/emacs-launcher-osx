@@ -9,7 +9,7 @@ and aliases.
 Who is this for?
 ----------------
 
-Firstly, this is only for OS X users running Emacs.  Other *nix
+Firstly, this is only for OS X users running Emacs.  Other \*nix
 environments don't need a hack like this because their graphic
 displays generally already inherit user shell settings.  Even GUI only
 distributions of Linux (yes, Kubuntu, I'm looking at you) still
