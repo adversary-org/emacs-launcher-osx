@@ -62,7 +62,7 @@ them the first time uou can elect to have them remain in the dock and
 be launched with a single click.
 
 You don't need to specify an init file, Emacs takes care of all of
-that as normal, though the sever version launches with the flags to
+that as normal, though the server version launches with the flags to
 execute the *server-start* mode.
 
 To launch additional instances of the basic version (EmacsLauncher)
@@ -71,6 +71,15 @@ purpose, but it can be done with the following command (assuming the
 apps are in ~/Applications rather than /Applications):
 
 open -n ~/Applications/EmacsLauncher.app/
+
+I normally don't bother in that case; instead I run a shell script
+which executes the full path to Emacs in much the same way as the
+EmacsLauncher.app does.  The advantage there, however, is that it
+loads an Emacs instance in the same directory the script is run from,
+which is usually where the items to be edited are or being otherwise
+manipulated.  The environment settings of that particular shell
+instance are loaded in that case which may vary from the standard
+.bashrc or .bash_profile.
 
 -----------------
 Use and Licensing
